@@ -109,7 +109,7 @@ body { font-family: 'Bitter', serif; color: var(--color-text); background: white
 .review-icon { position: absolute; top: 20px; right: 31px; width: 28px; }
 .review-rating { font-size: 24px; margin-top: 15px; }
 .review-rating span:last-child { font-size: 12px; opacity: 0.6; }
-.review-link { position: absolute; right: 25px; bottom: 15px; font-size: 12px; width: 72px; border-bottom: 1px solid #313131; text-align: right; text-decoration: none; color: inherit; }
+.review-link { position: absolute; right: 25px; bottom: 15px; font-size: 12px;  text-align: right; text-decoration: none; color: inherit; }
 
 /* FAQ */
 .faq { width: 393px; margin-top: 25px; }

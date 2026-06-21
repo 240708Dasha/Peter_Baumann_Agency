@@ -82,18 +82,20 @@ document.addEventListener('DOMContentLoaded', () => {
         if (overlay) overlay.classList.remove('active');
         document.querySelectorAll('.modal, .modal-success').forEach(m => m.classList.remove('active'));
         document.body.style.overflow = '';
+        document.body.style.overflow = '';
     };
 
     // Функция открытия конкретного окна (сначала закрывает старые)
     const openModal = (modalId) => {
         const targetModal = document.getElementById(modalId);
         if (!targetModal) return;
-
+        
         closeMobileMenu(); // Закрываем бургер, если открываем из него
         hideEverything();  // Очистка наложений
 
         if (overlay) overlay.classList.add('active');
         targetModal.classList.add('active');
+        document.body.style.overflow = 'hidden';
         document.body.style.overflow = 'hidden';
     };
 

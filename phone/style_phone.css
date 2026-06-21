@@ -158,7 +158,7 @@ body { font-family: 'Bitter', serif; color: var(--color-text); background: white
 .hotline-sub { font-size: 11px; color: #fff; opacity: 0.6; }
 
 /* MODALS */
-.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: none; justify-content: center; align-items: center; z-index: 5000; padding: 20px 0; }
+.modal-overlay { position: fixed; inset: 0; background: rgba(0,0,0,0.7); display: none; justify-content: center; align-items: center; z-index: 5000; margine-top: auto }
 .modal-overlay.active { display: flex!important; }
 .modal { width: 331px; max-height: 90vh; background: white; border-radius: 31px; display: none; flex-direction: column; overflow-y: auto; overflow-x: hidden; position: relative; z-index: 5001; scrollbar-width: none; -ms-overflow-style: none; }
 .modal::-webkit-scrollbar { display: none; }

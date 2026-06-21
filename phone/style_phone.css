@@ -163,7 +163,7 @@ body { font-family: 'Bitter', serif; color: var(--color-text); background: white
 .modal { position: relative; width: 331px; height: 773px; background: #FFFFFF; border-radius: 31px; display: none; flex-direction: column; margin: 40px auto; z-index: 5001; overflow: hidden; }
 .modal.active { display: flex !important; }
 .modal::-webkit-scrollbar { display: none; }
-.modal-close { position: absolute; top: 20px; right: 20px; width: 32px; height: 32px; background: #F2F2F2; border: none; border-radius: 8px; font-size: 24px; cursor: pointer; display: flex; align-items: center; justify-content: center; }
+.modal-close { position: absolute; top: 20px; right: 20px; width: 32px; height: 32px; background: #F2F2F2; border: none; border-radius: 8px; color: var(--color-text); cursor: pointer; display: flex; align-items: center; justify-content: center; }
 .modal-content-wrap { padding: 25px 25px 0; display: flex; flex-direction: column; gap: 24px; flex: 1; }
 .modal-header { display: flex; flex-direction: column; gap: 17px; }
 .modal-title { font-size: 20px; font-weight: normal; }

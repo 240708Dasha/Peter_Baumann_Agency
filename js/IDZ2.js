@@ -126,6 +126,20 @@ document.addEventListener('DOMContentLoaded', () => {
     const handleFormSubmit = (form) => {
         form.onsubmit = (e) => {
             e.preventDefault();
+
+            const telInput = form.querySelector('input[type="tel"]');
+            if (telInput) {
+                const val = telInput.value.trim();
+                
+                if (val.length !== 18 || !val.startsWith('+')) {
+                    alert('Вы ввели не полный номер телефона!');
+                    telInput.style.borderColor = 'red'; // Визуальная индикация ошибки
+                    return; 
+                } else {
+                    telInput.style.borderColor = ''; // Сбрасываем цвет, если всё ок
+                }
+            }
+            
             if (form.checkValidity() || document.querySelectorAll('.btn--form')) {
                 openModal('modalSuccess');
                 form.reset();

@@ -183,8 +183,8 @@ body { font-family: 'Bitter', serif; color: var(--color-text); background: white
 .modal-foot-item img { width: 15px; height: 15px; }
 
 /* SUCCESS MODAL */
-.modal-success { width: 297px; min-height: 181px; background: white; border-radius: 31px; padding: 30px 20px; display: none; flex-direction: column; align-items: center; justify-content: center; text-align: center; }
-.modal-success.active { display: flex!important; }
+.modal-success { width: 297px; min-height: 181px; height: auto; background: white; border-radius: 31px; margin: 100px auto; display: none; flex-direction: column; align-items: center; justify-content: center; padding: 30px 20px; text-align: center; }
+.modal-success.active { display: flex !important; }
 .success-title { font-size: 20px; margin-bottom: 11px; font-weight: normal;}
 .success-text { font-size: 13px; margin-bottom: 25px; opacity: 0.8; }
 .btn--success { width: 183px; height: 33px; font-size: 12px; border-radius: 40px; }
